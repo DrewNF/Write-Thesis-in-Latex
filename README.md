@@ -8,7 +8,7 @@
 This repository is designed to push and help students use [Latex](https://www.latex-project.org/), to develop more easily their thesis, Academic Paper or why not books.
 
 Before you start you will have to subscribe to the editor of Online Latex [ShareLatex](https://www.sharelatex.com?r=cd3f76de&rm=d&rs=b).
-This has some positive practical sides: everything synced online, so always available everywhere, but especially do not risk losing ** NOTHING! **
+This has some positive practical sides: everything synced online, so always available everywhere, but especially do not risk losing **NOTHING!**
 
 If you prefer to work with the offline version you can still use the project shared by me, but will not go into in this guide anything about it.
 
@@ -137,16 +137,17 @@ Let us now see in detail the individual elements:
     }
   ```
    
- **3. image_support (Folder containing the support images, eg cover) &**
- **4. image_thesis (Folder containing the images of the thesis, eg schemes graphics etc)**:
-  
-  These two folders are created for reasons of public order, the first will fill all those images that will not be mentioned and used in the main text.
+
+ **3. image_support (Folder containing the support images, eg cover) &**
+ **4. image_thesis (Folder containing the images of the thesis, eg schemes graphics etc)**:
+  
+ These two folders are created for reasons of public order, the first will fill all those images that will not be mentioned and used in the main text.
   While the second folder must be charged only the latter, cosichè there will be no possibility of confusion of the content.
-  
- **5. chapters (Folder containing the relevant chapters of the file)**:
- 
+  
+ **5. chapters (Folder containing the relevant chapters of the file)**:
+ 
  Finally in this folder are content files for individual chapters, where they will be content sections, subsections, content, citations, but mainly text.
- 
+ 
 ## 2.Elementi Base for Scripture
 
 This chapter will show you the main useful formulas for the drafting and structuring of the text within the individual chapters.
