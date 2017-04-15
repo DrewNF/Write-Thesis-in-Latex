@@ -43,10 +43,10 @@ Let us now see in detail the individual elements:
 
   **1. main.tex (Main File)**:
   
-  In this file are:
-  - Import settings useful for formatting text;
-  - Imported its files to the bibliography;
-  - Writings chapters useful as Dedications and Acknowledgments.
+In this file are:
+  - Import settings useful for formatting text;
+  - Imported its files to the bibliography;
+  - Writings chapters useful as Dedications and Acknowledgments;
   - Imported individual chapters chapters in the folder;
   - Print lists of useful content.
   
