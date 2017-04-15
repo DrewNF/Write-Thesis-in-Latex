@@ -106,8 +106,9 @@ In detail, here we import the **settings**:
   
   **2. references.lib (File with references to the bibliography)**:
   
- The references.lib files is very convenient allowing you to specify two different types of sources and recall them in the text, then the compiler will print the ordered list at the end.
- The possibilities are as follows:
+
+The references.lib files is very convenient allowing you to specify two different types of sources and recall them in the text, then the compiler will print the ordered list at the end.
+The possibilities are as follows:
   
   
    ```latex      
