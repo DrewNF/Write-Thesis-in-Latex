@@ -33,11 +33,11 @@ Below an index of what I will describe in this guide:
 Latex is a compiler of texts, so it needs a file structure that once filled up in a single text, so we should not deal with anything that is: indentation, etc. alignment, we just need to set the right parameters and everything will be done automatically.
 
 The project has a fairly simple and intuitive structure:
-  1. **main.tex** (Master File);
-  2. **references.lib** (File with references to the bibliography);
-  3. **image_support** (Folder containing the support images, eg the cover);
-  4. **image_thesis** (Folder containing the images of the thesis, eg diagrams etc);
-  5. **chapters** (Folder containing the relevant chapters of the file);
+    1. **main.tex** (Master File);
+    2. **references.lib** (File with references to the bibliography);
+    3. **image_support** (Folder containing the support images, eg the cover);
+    4. **image_thesis** (Folder containing the images of the thesis, eg diagrams etc);
+    5. **chapters** (Folder containing the relevant chapters of the file);
 
 Let us now see in detail the individual elements:
 
@@ -211,17 +211,17 @@ For more in-depth knowledge and formatting, I refer you to the section with usef
   
 ## 3.Links
 
- - [Upload a project](https://it.sharelatex.com/learn/Uploading_a_project);
- - [Using the Bibliography](https://it.sharelatex.com/learn/Using_bibliographies_in_ShareLaTeX);
- - [Insert Images](https://it.sharelatex.com/learn/Inserting_Images);
- - [Insert Tables](https://it.sharelatex.com/learn/Tables);
- - [Paragraphs and New Line](https://it.sharelatex.com/learn/Paragraphs_and_new_lines);
- - [Grossetto, Italic, and Underline](https://it.sharelatex.com/learn/Bold,_italics_and_underlining);
- - [Use Lists](https://it.sharelatex.com/learn/Lists);
- - [Headers & Footers](https://it.sharelatex.com/learn/Headers_and_footers);
- - [Notes to Footer](https://it.sharelatex.com/learn/Footnotes);
- - [the text Alignment](https://it.sharelatex.com/learn/Text_alignment).
-
+ - [Project Upload](https://it.sharelatex.com/learn/Uploading_a_project);
+ - [Bibliography](https://it.sharelatex.com/learn/Using_bibliographies_in_ShareLaTeX);
+ - [Images](https://it.sharelatex.com/learn/Inserting_Images);
+ - [Tables](https://it.sharelatex.com/learn/Tables);
+ - [Paragraph and New line](https://it.sharelatex.com/learn/Paragraphs_and_new_lines);
+ - [Bold, Italic & Underline](https://it.sharelatex.com/learn/Bold,_italics_and_underlining);
+ - [Lists](https://it.sharelatex.com/learn/Lists).
+ - [Headers & Footers](https://it.sharelatex.com/learn/Headers_and_footers);
+ - [Footnotes](https://it.sharelatex.com/learn/Footnotes);
+ - [Text Alignment](https://it.sharelatex.com/learn/Text_alignment).
+  
 ## 4.Copyright
 
 According to the LICENSE file of the original code:
