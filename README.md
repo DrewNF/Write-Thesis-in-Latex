@@ -45,12 +45,13 @@ Let us now see in detail the individual elements:
   
 In this file are:
 - Import settings useful for formatting text;
-- Imported its files to the bibliography;
-- Writings chapters useful as Dedications and Acknowledgments;
-- Imported individual chapters chapters in the folder;
-- Print lists of useful content.
+- Imported the bibliography;
+- Written chapters useful as Dedications and Acknowledgments;
+- Imported individual chapters from the chapter's folder;
+- Print lists of contents.
   
-  In detail, here we import the **settings**:
+
+In detail, here we import the **settings**:
   
    ```latex      
     parser = argparse.ArgumentParser()
