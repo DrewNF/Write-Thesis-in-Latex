@@ -20,23 +20,24 @@ After downloading the .zip file Thesis Template Polito ITA / ENG, simply unpack 
 
 Below an index of what I will describe in this guide:
 
-1. ** [Project Structure] (# 1project-structure); **
-2. ** [Basic Elements for Writing] (# 2basic-elements-for-writing); **
-3. ** [Links] (# 3links) **
-4. ** [Copyright] (# 4copyright); **
-5. ** [State of the Project] (# 5state-of-the-project). **
-6. ** [Acknowledgments] (# 6acknowledgements). **
+1. ** [Project Structure](#1project-structure); **
+2. ** [Basic Elements for Writing](#2basic-elements-for-writing); **
+3. ** [Links](#3links) **
+4. ** [Copyright](#4copyright); **
+5. ** [State of the Project](#5state-of-the-project). **
+6. ** [Acknowledgments](#6acknowledgements). **
 
 
 ## 1.Structure Project
 
-Latex is a compiler of texts, so it needs a file structure that once filled up in a single text, so we should not deal with anything that is: indentation, etc. alignment, we just need to set the right parameters and everything will be done automatically .
+Latex is a compiler of texts, so it needs a file structure that once filled up in a single text, so we should not deal with anything that is: indentation, etc. alignment, we just need to set the right parameters and everything will be done automatically.
+
 The project has a fairly simple and intuitive structure:
-  1. ** ** main.tex (Master File);
-  2. references.lib ** ** (File with references to the bibliography);
-  3. ** ** image_support (Folder containing the support images, eg the cover);
-  4. image_thesis ** ** (Folder containing the images of the thesis, eg diagrams etc);
-  5. ** ** chapters (Folder containing the relevant chapters of the file);
+  1. **main.tex** (Master File);
+  2. **references.lib** (File with references to the bibliography);
+  3. **image_support** (Folder containing the support images, eg the cover);
+  4. **image_thesis** (Folder containing the images of the thesis, eg diagrams etc);
+  5. **chapters** (Folder containing the relevant chapters of the file);
 
 Let us now see in detail the individual elements:
 
@@ -51,54 +52,54 @@ Let us now see in detail the individual elements:
   
   In detail, here we import the settings ** **:
   
-   ```latex
-    parser = argparse.ArgumentParser ()
-    \usepackage{fancyhdr}
-    \usepackage{listings}
-    \usepackage[italian]{babel}
-    \usepackage{subcaption} 
-    \usepackage{caption}
-    \usepackage[table, xcdraw]{xcolor} 
-    \usepackage{comment}
-    \usepackage{adjustbox} 
-  ```
+     ```latex
+      parser = argparse.ArgumentParser ()
+      \usepackage{fancyhdr}
+      \usepackage{listings}
+      \usepackage[italian]{babel}
+      \usepackage{subcaption} 
+      \usepackage{caption}
+      \usepackage[table, xcdraw]{xcolor} 
+      \usepackage{comment}
+      \usepackage{adjustbox} 
+    ```
   
   ** Here we import the bibliography file **:
   
-  ```latex
-    \Addbibresource{references.bib}
-  ```
+    ```latex
+      \Addbibresource{references.bib}
+    ```
   
   ** Here we write inline chapters in the file **:
   
-  ```latex
-    \Chapter*{Dedications}
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mass eu lacus vestibulum elementum.
-  ```
+    ```latex
+      \Chapter*{Dedications}
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mass eu lacus vestibulum elementum.
+    ```
   
   ** Here we import the individual chapters**:
   
-  ```latex
-    \Chapter{State of the Art}
-    \Input{chapters / 4_stateoftheart}
-    \Chapter{Methodology}
-    \Input{chapters / 5_methodology}
-    \Chapter{Development of Labor}
-    \Input{chapters / 6_development}
-    \Chapter{Evaluation of Labor}
-    \Input{chapters / 7_evaluation}
-    \Chapter{Conclusion}
-    \Input{chapters / 8_conclusion}
-  ```
+    ```latex
+      \Chapter{State of the Art}
+      \Input{chapters / 4_stateoftheart}
+      \Chapter{Methodology}
+      \Input{chapters / 5_methodology}
+      \Chapter{Development of Labor}
+      \Input{chapters / 6_development}
+      \Chapter{Evaluation of Labor}
+      \Input{chapters / 7_evaluation}
+      \Chapter{Conclusion}
+      \Input{chapters / 8_conclusion}
+    ```
     
   ** Finally we print the lists of contents **:
   
-  ```latex
-    \tableofcontents
-    \listoffigures
-    \listoftables
-    \printbibliography
-  ```
+    ```latex
+      \tableofcontents
+      \listoffigures
+      \listoftables
+      \printbibliography
+    ```
   
   The order in which these points are specified depends on the author's choices in the file provided to you, the order is classic, so you can safely leave things as they are and change only chapters and content.
   
