@@ -33,11 +33,11 @@ Below an index of what I will describe in this guide:
 Latex is a compiler of texts, so it needs a file structure that once filled up in a single text, so we should not deal with anything that is: indentation, etc. alignment, we just need to set the right parameters and everything will be done automatically.
 
 The project has a fairly simple and intuitive structure:
-    1. **main.tex** (Master File);
-    2. **references.lib** (File with references to the bibliography);
-    3. **image_support** (Folder containing the support images, eg the cover);
-    4. **image_thesis** (Folder containing the images of the thesis, eg diagrams etc);
-    5. **chapters** (Folder containing the relevant chapters of the file);
+  1. **main.tex** (Master File);
+  2. **references.lib** (File with references to the bibliography);
+  3. **image_support** (Folder containing the support images, eg the cover);
+  4. **image_thesis** (Folder containing the images of the thesis, eg diagrams etc);
+  5. **chapters** (Folder containing the relevant chapters of the file);
 
 Let us now see in detail the individual elements:
 
@@ -225,8 +225,8 @@ For more in-depth knowledge and formatting, I refer you to the section with usef
 ## 4.Copyright
 
 According to the LICENSE file of the original code:
- - Me and original author hold no liability for any damages;
- - Do not use this on commercial !.
+  - Me and original author hold no liability for any damages;
+  - Do not use this on commercial!.
 
 ## 5.State of the Project
 
