@@ -48,7 +48,7 @@ Let us now see in detail the individual elements:
   - Imported its files to the bibliography;
   - Writings chapters useful as Dedications and Acknowledgments.
   - Imported individual chapters chapters in the folder;
-  - Print lists of useful content;
+  - Print lists of useful content.
   
   In detail, here we import the **settings**:
   
@@ -218,7 +218,7 @@ For more in-depth knowledge and formatting, I refer you to the section with usef
  - [Tables](https://it.sharelatex.com/learn/Tables);
  - [Paragraph and New line](https://it.sharelatex.com/learn/Paragraphs_and_new_lines);
  - [Bold, Italic & Underline](https://it.sharelatex.com/learn/Bold,_italics_and_underlining);
- - [Lists](https://it.sharelatex.com/learn/Lists).
+ - [Lists](https://it.sharelatex.com/learn/Lists);
  - [Headers & Footers](https://it.sharelatex.com/learn/Headers_and_footers);
  - [Footnotes](https://it.sharelatex.com/learn/Footnotes);
  - [Text Alignment](https://it.sharelatex.com/learn/Text_alignment).
