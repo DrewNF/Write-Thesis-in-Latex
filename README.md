@@ -5,18 +5,18 @@
 
 ### For any doubt or deepening, do not hesitate to open an Issue, I will answer you very happy!
 
-This repository is designed to push and help students use [Latex] (https://www.latex-project.org/), to develop more easily their thesis, Academic Paper or why not books.
+This repository is designed to push and help students use [Latex](https://www.latex-project.org/), to develop more easily their thesis, Academic Paper or why not books.
 
-Before you start you will have to subscribe to the editor of Online Latex [ShareLatex] (https://www.sharelatex.com?r=cd3f76de&rm=d&rs=b).
+Before you start you will have to subscribe to the editor of Online Latex [ShareLatex](https://www.sharelatex.com?r=cd3f76de&rm=d&rs=b).
 This has some positive practical sides: everything synced online, so always available everywhere, but especially do not risk losing ** NOTHING! **
 
 If you prefer to work with the offline version you can still use the project shared by me, but will not go into in this guide anything about it.
 
-English version of the Guide, with the English version also File: [Write Thesis Latex] (https://github.com/DrewNF/Write-Thesis-in-Latex)
+Italian version of the Guide, with the Italian version also File: [Scrivere una Tesi in Latex}(https://github.com/DrewNF/Scrivere-Tesi-in-Latex)
 
 ### LET'S START
 
-After downloading the .zip file Thesis Template Polito ITA / ENG, simply unpack it, go to your Account [ShareLatex] (https://www.sharelatex.com?r=cd3f76de&rm=d&rs=b), start a new project and when you are required to upload an existing project; the upload is complete you will have your thesis ready to be written!
+After downloading the .zip file Thesis Template Polito ITA / ENG, simply unpack it, go to your Account [ShareLatex](https://www.sharelatex.com?r=cd3f76de&rm=d&rs=b), start a new project and when you are required to upload an existing project; the upload is complete you will have your thesis ready to be written!
 
 Below an index of what I will describe in this guide:
 
@@ -51,7 +51,7 @@ Let us now see in detail the individual elements:
   
   In detail, here we import the settings ** **:
   
-   ```Latex
+   ```latex
     parser = argparse.ArgumentParser ()
     \usepackage{fancyhdr}
     \usepackage{listings}
@@ -63,22 +63,22 @@ Let us now see in detail the individual elements:
     \usepackage{adjustbox} 
   ```
   
-   ** Here we import the bibliography file **:
+  ** Here we import the bibliography file **:
   
-  ```Latex
+  ```latex
     \Addbibresource{references.bib}
   ```
   
-   ** Here we write inline chapters in the file **:
+  ** Here we write inline chapters in the file **:
   
-  ```Latex
+  ```latex
     \Chapter*{Dedications}
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mass eu lacus vestibulum elementum.
   ```
   
-   ** ** Here we import the individual chapters:
+  ** Here we import the individual chapters**:
   
-  ```Latex
+  ```latex
     \Chapter{State of the Art}
     \Input{chapters / 4_stateoftheart}
     \Chapter{Methodology}
@@ -91,9 +91,9 @@ Let us now see in detail the individual elements:
     \Input{chapters / 8_conclusion}
   ```
     
-   ** Finally we print the lists of contents **:
+  ** Finally we print the lists of contents **:
   
-  ```Latex
+  ```latex
     \tableofcontents
     \listoffigures
     \listoftables
@@ -108,7 +108,7 @@ Let us now see in detail the individual elements:
  The possibilities are as follows:
   
   
-   ```Latex
+   ```latex
     %%% ARTICLES
 
     @ARTICLE{lorem_article,
@@ -151,7 +151,7 @@ Let us now see in detail the individual elements:
 This chapter will show you the main useful formulas for the drafting and structuring of the text within the individual chapters.
 To define **Sections and subsections** use:
 
-  ```Latex
+  ```latex
     \Section{Morbi} 
     Morbi varius ac enim, lobortis ac hatred.
     \Subsection{Et love} 
@@ -159,7 +159,7 @@ To define **Sections and subsections** use:
   ```
 To define **Images** use:
 
-  ```Latex
+  ```latex
     \Begin{figure}[h!]
     \Includegraphics[scale = 0.3]{ lorem_image.png}
     \centering
@@ -169,7 +169,7 @@ To define **Images** use:
   ```
 To define **Tables** we use:
 
-  ```Latex
+  ```latex
     \Begin{table}[h!]
     \centering
     \Begin{tabular}{| c | c | c | c |}
@@ -188,7 +188,7 @@ To define **Tables** we use:
 
 To quote in the text respectively **Bibliography**, **Images**, **Tables** we use:
 
-  ```Latex
+  ```latex
    \cite{lorem_article}
    
    \ref{fig:template_cat}
@@ -199,7 +199,7 @@ The convenience of well cite our sources, is that we should not deal with contro
 
 To create **bulleted lists** we use:
 
-  ```Latex
+  ```latex
     \Begin{itemize}
       \Item Contribution 1;
       \Item Contribution 2;
