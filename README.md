@@ -52,54 +52,54 @@ Let us now see in detail the individual elements:
   
   In detail, here we import the settings ** **:
   
-     ```latex
-      parser = argparse.ArgumentParser ()
-      \usepackage{fancyhdr}
-      \usepackage{listings}
-      \usepackage[italian]{babel}
-      \usepackage{subcaption} 
-      \usepackage{caption}
-      \usepackage[table, xcdraw]{xcolor} 
-      \usepackage{comment}
-      \usepackage{adjustbox} 
-    ```
+          ```latex
+           parser = argparse.ArgumentParser ()
+           \usepackage{fancyhdr}
+           \usepackage{listings}
+           \usepackage[italian]{babel}
+           \usepackage{subcaption} 
+           \usepackage{caption}
+           \usepackage[table, xcdraw]{xcolor} 
+           \usepackage{comment}
+           \usepackage{adjustbox} 
+         ```
   
   ** Here we import the bibliography file **:
-  
-    ```latex
-      \Addbibresource{references.bib}
-    ```
+
+         ```latex
+           \addbibresource{references.bib}
+         ```
   
   ** Here we write inline chapters in the file **:
   
-    ```latex
-      \Chapter*{Dedications}
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mass eu lacus vestibulum elementum.
-    ```
+         ```latex
+           \chapter*{Dedications}
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque mass eu lacus vestibulum elementum.
+         ```
   
   ** Here we import the individual chapters**:
   
-    ```latex
-      \Chapter{State of the Art}
-      \Input{chapters / 4_stateoftheart}
-      \Chapter{Methodology}
-      \Input{chapters / 5_methodology}
-      \Chapter{Development of Labor}
-      \Input{chapters / 6_development}
-      \Chapter{Evaluation of Labor}
-      \Input{chapters / 7_evaluation}
-      \Chapter{Conclusion}
-      \Input{chapters / 8_conclusion}
-    ```
+         ```latex
+           \chapter{State of the Art}
+           \input{chapters / 4_stateoftheart}
+           \chapter{Methodology}
+           \input{chapters / 5_methodology}
+           \chapter{Development of Labor}
+           \input{chapters / 6_development}
+           \chapter{Evaluation of Labor}
+           \input{chapters / 7_evaluation}
+           \chapter{Conclusion}
+           \input{chapters / 8_conclusion}
+         ```
     
   ** Finally we print the lists of contents **:
   
-    ```latex
-      \tableofcontents
-      \listoffigures
-      \listoftables
-      \printbibliography
-    ```
+         ```latex
+           \tableofcontents
+           \listoffigures
+           \listoftables
+           \printbibliography
+         ```
   
   The order in which these points are specified depends on the author's choices in the file provided to you, the order is classic, so you can safely leave things as they are and change only chapters and content.
   
@@ -109,33 +109,33 @@ Let us now see in detail the individual elements:
  The possibilities are as follows:
   
   
-   ```latex
-    %%% ARTICLES
+        ```latex
+         %%% ARTICLES
 
-    @ARTICLE{lorem_article,
-       author = {{} Redmon, J. and Divvala {}, and {S. Girshick}, and {R} Farhadi, A.
-      },
-        title = "{You Only Look Once: Unified, Real-Time Object Detection}",
-      journal = {} arXiv e-prints,
-    archivePrefix = "arXiv"
-       eprint 1506.02640 = {},
-     primaryClass = "cs.CV"
-     keywords = {Computer Science - Computer Vision and Pattern Recognition},
-         year = 2015,
-        month = jun,
-       adsurl http://adsabs.harvard.edu/abs/2015arXiv150602640R = {},
-      adsnote = {Provided by the SAO / NASA Astrophysics Data System}
-    }
+         @ARTICLE{lorem_article,
+            author = {{} Redmon, J. and Divvala {}, and {S. Girshick}, and {R} Farhadi, A.
+           },
+             title = "{You Only Look Once: Unified, Real-Time Object Detection}",
+           journal = {} arXiv e-prints,
+         archivePrefix = "arXiv"
+            eprint 1506.02640 = {},
+          primaryClass = "cs.CV"
+          keywords = {Computer Science - Computer Vision and Pattern Recognition},
+              year = 2015,
+             month = jun,
+            adsurl http://adsabs.harvard.edu/abs/2015arXiv150602640R = {},
+           adsnote = {Provided by the SAO / NASA Astrophysics Data System}
+         }
 
-    %%% WEBSITE
+         %%% WEBSITE
 
-    @online{lorem_web,
-        author = {} Berkley,
-        title = {Caffe, Deep Learning Framework},
-        year = {2008},
-        http://caffe.berkeleyvision.org/ url = {}
-    }
-  ```
+         @online{lorem_web,
+             author = {} Berkley,
+             title = {Caffe, Deep Learning Framework},
+             year = {2008},
+             http://caffe.berkeleyvision.org/ url = {}
+         }
+       ```
   
  ** 3. image_support (Folder containing the support images, eg cover) & **
  ** 4. image_thesis (Folder containing the images of the thesis, eg schemes graphics etc) **:
@@ -152,38 +152,38 @@ Let us now see in detail the individual elements:
 This chapter will show you the main useful formulas for the drafting and structuring of the text within the individual chapters.
 To define **Sections and subsections** use:
 
-  ```latex
-    \Section{Morbi} 
-    Morbi varius ac enim, lobortis ac hatred.
-    \Subsection{Et love} 
-    Nullam venenatis, erat in faucibus vestibulum, faucibus sapien magna dolor, iaculis ac urna tellus ut purus.
-  ```
+       ```latex
+         \section{Morbi} 
+         Morbi varius ac enim, lobortis ac hatred.
+         \subsection{Et love} 
+         Nullam venenatis, erat in faucibus vestibulum, faucibus sapien magna dolor, iaculis ac urna tellus ut purus.
+       ```
 To define **Images** use:
 
-  ```latex
-    \Begin{figure}[h!]
-    \Includegraphics[scale = 0.3]{ lorem_image.png}
-    \centering
-    \Caption{ac varius Morbi enim, lobortis ac hatred. Nullam venenatis, erat in faucibus vestibulum, faucibus sapien magna dolor, iaculis ac urna tellus ut purus. Finibus Pellentesque urna eget cursus maximus. Aenean mollis ante nec iaculis dolor, ac malesuada enim ultrices. Aenean vulputate felis sapien, quis rhoncus vitae dictum hatred.}
-    \Label{fig:template_cat_c}
-    \End{figure}
-  ```
+       ```latex
+         \begin{figure}[h!]
+         \includegraphics[scale = 0.3]{ lorem_image.png}
+         \centering
+         \caption{ac varius Morbi enim, lobortis ac hatred. Nullam venenatis, erat in faucibus vestibulum, faucibus sapien magna dolor, iaculis ac urna tellus ut purus. Finibus Pellentesque urna eget cursus maximus. Aenean mollis ante nec iaculis dolor, ac malesuada enim ultrices. Aenean vulputate felis sapien, quis rhoncus vitae dictum hatred.}
+         \label{fig:template_cat_c}
+         \end{figure}
+       ```
 To define **Tables** we use:
 
        ```latex
-         \Begin{table}[h!]
+         \begin{table}[h!]
          \centering
-         \Begin{tabular}{| c | c | c | c |}
+         \begin{tabular}{| c | c | c | c |}
          \hline
-         \Textbf {team name} & \ textbf {Entry & description} \ textbf {\ begin {tabular} [c] {@} {c} {@} Number of object \\ \\ categories won \ end {tabular}} & \ textbf {mAP} \\ \ hline
-         \Textbf {} & NUIST \ begin {tabular} [c] {@} {c} {@} cascaded region regression tracking + \\ \ end {tabular} & 10 & {\ color [HTML] {FE0000 0.808292}} \ \ \ hline
-         \Textbf {} & NUIST \ begin {tabular} [c] {@} {c} {@} cascaded region regression tracking + \\ \ end {tabular} & 10 & 0.803154 \\ \ hline
-         \Textbf {} & CUVideo \ begin {tabular} [c] {@} {c} {@} 4-model ensemble with Multi-Context Suppression \\ \\ and Motion-Guided Propagation \ end {tabular} & 9 & 0.767981 \\ \ hline
-         \Textbf {Trimps-Soushen} & Ensemble 2 & 1 & 0.709651 \\ \ hline
-         \End{tabular}
-         \Caption{ac varius Morbi enim, lobortis ac hatred. Nullam venenatis, erat in faucibus vestibulum, faucibus sapien magna dolor, iaculis ac urna tellus ut purus. Finibus Pellentesque urna eget cursus maximus. Aenean mollis ante nec iaculis dolor, ac malesuada enim ultrices. Aenean vulputate felis sapien, quis rhoncus vitae dictum hatred.}
-         \Label{tab:template_table_c}
-         \End{table}
+         \textbf {team name} & \ textbf {Entry & description} \ textbf {\ begin {tabular} [c] {@} {c} {@} Number of object \\ \\ categories won \ end {tabular}} & \ textbf {mAP} \\ \ hline
+         \textbf {} & NUIST \ begin {tabular} [c] {@} {c} {@} cascaded region regression tracking + \\ \ end {tabular} & 10 & {\ color [HTML] {FE0000 0.808292}} \ \ \ hline
+         \textbf {} & NUIST \ begin {tabular} [c] {@} {c} {@} cascaded region regression tracking + \\ \ end {tabular} & 10 & 0.803154 \\ \ hline
+         \textbf {} & CUVideo \ begin {tabular} [c] {@} {c} {@} 4-model ensemble with Multi-Context Suppression \\ \\ and Motion-Guided Propagation \ end {tabular} & 9 & 0.767981 \\ \ hline
+         \textbf {Trimps-Soushen} & Ensemble 2 & 1 & 0.709651 \\ \ hline
+         \end{tabular}
+         \caption{ac varius Morbi enim, lobortis ac hatred. Nullam venenatis, erat in faucibus vestibulum, faucibus sapien magna dolor, iaculis ac urna tellus ut purus. Finibus Pellentesque urna eget cursus maximus. Aenean mollis ante nec iaculis dolor, ac malesuada enim ultrices. Aenean vulputate felis sapien, quis rhoncus vitae dictum hatred.}
+         \label{tab:template_table_c}
+         \end{table}
        ```
   A tip for the creation and management of the tables is to use the following [Editor Online](http://www.tablesgenerator.com/) that allows you to graphically create the table, and then later export the code in Latex file.
 
@@ -201,11 +201,11 @@ The convenience of well cite our sources, is that we should not deal with contro
 To create **bulleted lists** we use:
 
        ```latex
-         \Begin{itemize}
-           \Item Contribution 1;
-           \Item Contribution 2;
-           \Item Contribution 3.
-         \End{itemize}
+         \begin{itemize}
+           \item Contribution 1;
+           \item Contribution 2;
+           \item Contribution 3.
+         \end{itemize}
        ```
 
 For more in-depth knowledge and formatting, I refer you to the section with useful links where you will insert all links to the official guides that explain the different possibilities of text formatting, by its size to bold and italic, multi-image compositions etc ...
