@@ -20,12 +20,12 @@ After downloading the .zip file Thesis Template Polito ITA / ENG, simply unpack 
 
 Below an index of what I will describe in this guide:
 
-1. ** [Project Structure](#1project-structure); **
-2. ** [Basic Elements for Writing](#2basic-elements-for-writing); **
-3. ** [Links](#3links) **
-4. ** [Copyright](#4copyright); **
-5. ** [State of the Project](#5state-of-the-project). **
-6. ** [Acknowledgments](#6acknowledgements). **
+1. **[Project Structure](#1project-structure);**
+2. **[Basic Elements for Writing](#2basic-elements-for-writing);**
+3. **[Links](#3links);**
+4. **[Copyright](#4copyright);**
+5. **[State of the Project](#5state-of-the-project);**
+6. **[Acknowledgments](#6acknowledgements).**
 
 
 ## 1.Structure Project
@@ -170,64 +170,64 @@ To define **Images** use:
   ```
 To define **Tables** we use:
 
-  ```latex
-    \Begin{table}[h!]
-    \centering
-    \Begin{tabular}{| c | c | c | c |}
-    \hline
-    \Textbf {team name} & \ textbf {Entry & description} \ textbf {\ begin {tabular} [c] {@} {c} {@} Number of object \\ \\ categories won \ end {tabular}} & \ textbf {mAP} \\ \ hline
-    \Textbf {} & NUIST \ begin {tabular} [c] {@} {c} {@} cascaded region regression tracking + \\ \ end {tabular} & 10 & {\ color [HTML] {FE0000 0.808292}} \ \ \ hline
-    \Textbf {} & NUIST \ begin {tabular} [c] {@} {c} {@} cascaded region regression tracking + \\ \ end {tabular} & 10 & 0.803154 \\ \ hline
-    \Textbf {} & CUVideo \ begin {tabular} [c] {@} {c} {@} 4-model ensemble with Multi-Context Suppression \\ \\ and Motion-Guided Propagation \ end {tabular} & 9 & 0.767981 \\ \ hline
-    \Textbf {Trimps-Soushen} & Ensemble 2 & 1 & 0.709651 \\ \ hline
-    \End{tabular}
-    \Caption{ac varius Morbi enim, lobortis ac hatred. Nullam venenatis, erat in faucibus vestibulum, faucibus sapien magna dolor, iaculis ac urna tellus ut purus. Finibus Pellentesque urna eget cursus maximus. Aenean mollis ante nec iaculis dolor, ac malesuada enim ultrices. Aenean vulputate felis sapien, quis rhoncus vitae dictum hatred.}
-    \Label{tab:template_table_c}
-    \End{table}
-  ```
+       ```latex
+         \Begin{table}[h!]
+         \centering
+         \Begin{tabular}{| c | c | c | c |}
+         \hline
+         \Textbf {team name} & \ textbf {Entry & description} \ textbf {\ begin {tabular} [c] {@} {c} {@} Number of object \\ \\ categories won \ end {tabular}} & \ textbf {mAP} \\ \ hline
+         \Textbf {} & NUIST \ begin {tabular} [c] {@} {c} {@} cascaded region regression tracking + \\ \ end {tabular} & 10 & {\ color [HTML] {FE0000 0.808292}} \ \ \ hline
+         \Textbf {} & NUIST \ begin {tabular} [c] {@} {c} {@} cascaded region regression tracking + \\ \ end {tabular} & 10 & 0.803154 \\ \ hline
+         \Textbf {} & CUVideo \ begin {tabular} [c] {@} {c} {@} 4-model ensemble with Multi-Context Suppression \\ \\ and Motion-Guided Propagation \ end {tabular} & 9 & 0.767981 \\ \ hline
+         \Textbf {Trimps-Soushen} & Ensemble 2 & 1 & 0.709651 \\ \ hline
+         \End{tabular}
+         \Caption{ac varius Morbi enim, lobortis ac hatred. Nullam venenatis, erat in faucibus vestibulum, faucibus sapien magna dolor, iaculis ac urna tellus ut purus. Finibus Pellentesque urna eget cursus maximus. Aenean mollis ante nec iaculis dolor, ac malesuada enim ultrices. Aenean vulputate felis sapien, quis rhoncus vitae dictum hatred.}
+         \Label{tab:template_table_c}
+         \End{table}
+       ```
   A tip for the creation and management of the tables is to use the following [Editor Online](http://www.tablesgenerator.com/) that allows you to graphically create the table, and then later export the code in Latex file.
 
 To quote in the text respectively **Bibliography**, **Images**, **Tables** we use:
 
-  ```latex
-   \cite{lorem_article}
-   
-   \ref{fig:template_cat}
-   
-   \ref{tab:template_table}
-  ```
+       ```latex
+        \cite{lorem_article}
+
+        \ref{fig:template_cat}
+
+        \ref{tab:template_table}
+       ```
 The convenience of well cite our sources, is that we should not deal with controls numeric references and order, because latex will do it in our place.
 
 To create **bulleted lists** we use:
 
-  ```latex
-    \Begin{itemize}
-      \Item Contribution 1;
-      \Item Contribution 2;
-      \Item Contribution 3.
-    \End{itemize}
-  ```
+       ```latex
+         \Begin{itemize}
+           \Item Contribution 1;
+           \Item Contribution 2;
+           \Item Contribution 3.
+         \End{itemize}
+       ```
 
 For more in-depth knowledge and formatting, I refer you to the section with useful links where you will insert all links to the official guides that explain the different possibilities of text formatting, by its size to bold and italic, multi-image compositions etc ...
   
 ## 3.Link Gains
 
-  - [Upload a project](https://it.sharelatex.com/learn/Uploading_a_project);
-  - [Using the Bibliography](https://it.sharelatex.com/learn/Using_bibliographies_in_ShareLaTeX);
-  - [Insert Images](https://it.sharelatex.com/learn/Inserting_Images);
-  - [Insert Tables](https://it.sharelatex.com/learn/Tables);
-  - [Paragraphs and New Line](https://it.sharelatex.com/learn/Paragraphs_and_new_lines);
-  - [Grossetto, Italic, and Underline](https://it.sharelatex.com/learn/Bold,_italics_and_underlining);
-  - [Use Lists](https://it.sharelatex.com/learn/Lists);
-  - [Headers & Footers](https://it.sharelatex.com/learn/Headers_and_footers);
-  - [Notes to Footer](https://it.sharelatex.com/learn/Footnotes);
-  - [the text Alignment](https://it.sharelatex.com/learn/Text_alignment).
+ - [Upload a project](https://it.sharelatex.com/learn/Uploading_a_project);
+ - [Using the Bibliography](https://it.sharelatex.com/learn/Using_bibliographies_in_ShareLaTeX);
+ - [Insert Images](https://it.sharelatex.com/learn/Inserting_Images);
+ - [Insert Tables](https://it.sharelatex.com/learn/Tables);
+ - [Paragraphs and New Line](https://it.sharelatex.com/learn/Paragraphs_and_new_lines);
+ - [Grossetto, Italic, and Underline](https://it.sharelatex.com/learn/Bold,_italics_and_underlining);
+ - [Use Lists](https://it.sharelatex.com/learn/Lists);
+ - [Headers & Footers](https://it.sharelatex.com/learn/Headers_and_footers);
+ - [Notes to Footer](https://it.sharelatex.com/learn/Footnotes);
+ - [the text Alignment](https://it.sharelatex.com/learn/Text_alignment).
 
 ## 4.Copyright
 
 According to the LICENSE file of the original code:
-  - Me and original author hold no liability for any damages;
-  - Do not use this on commercial !.
+ - Me and original author hold no liability for any damages;
+ - Do not use this on commercial !.
 
 ## 5.State of the Project
 
