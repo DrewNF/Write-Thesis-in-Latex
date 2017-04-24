@@ -1,0 +1,108 @@
+% Document  Definition
+% Font size: 12pt 
+% Document alignment: twoside, possibile singleside
+
+\documentclass[12pt,twoside]{report}
+
+% Import packages 
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[a4paper,width=150mm,right=30mm,left=30mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{comment}
+\usepackage{adjustbox}
+\usepackage{needspace}
+\usepackage[backend=biber]{biblatex}
+
+% Import References Lib
+
+\addbibresource{references.bib}
+
+% Set parameters thesis and packages
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[RO,LE]{Thesis Title}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Chapter \thechapter}
+\fancyfoot[CO,RE]{Author Name}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+% Set imges folder paths 
+\graphicspath{ {images_support/} {images_thesis/} }
+%TITLE
+\title{{Thesis Title}\\
+	{\large University}\\
+	{\label{img:logo_UPC}
+	\includegraphics[scale=0.5]{logo_UPC.jpg}}
+}
+%AUTHOR
+\author{Author}
+%DATE
+\date{Date}
+% start of the document.
+\begin{document}
+\input{chapters/1_title_page}
+% blank page code start
+\clearpage\pagestyle{empty}\mbox{}\clearpage
+% blank page code end
+% front part.
+\input{chapters/2_abstract}
+
+\chapter*{Dedication}
+% DEDICATION
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque massa eu lacus vestibulum elementum. Vestibulum nibh neque, blandit a felis nec, sollicitudin lobortis metus. Integer nec ipsum sit amet nibh eleifend maximus. Praesent diam augue, vestibulum a augue ac, egestas aliquet orci. Vivamus eu dui sed nisl fringilla blandit sit amet ac urna. Duis aliquet orci sit amet eleifend cursus. Pellentesque vitae vulputate velit. Curabitur commodo dui at nibh tincidunt, et porttitor nibh tincidunt. Praesent mauris eros, porttitor sed cursus ut, vulputate non purus. Aenean ut nibh quis odio laoreet malesuada volutpat eu elit. Suspendisse vulputate ipsum accumsan nibh ornare ullamcorper. Quisque vitae arcu urna.
+
+\chapter*{Acknowledgements}
+% ACKNOWLEDGEMENTS
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque massa eu lacus vestibulum elementum. Vestibulum nibh neque, blandit a felis nec, sollicitudin lobortis metus. Integer nec ipsum sit amet nibh eleifend maximus. Praesent diam augue, vestibulum a augue ac, egestas aliquet orci. Vivamus eu dui sed nisl fringilla blandit sit amet ac urna. Duis aliquet orci sit amet eleifend cursus. Pellentesque vitae vulputate velit. Curabitur commodo dui at nibh tincidunt, et porttitor nibh tincidunt. Praesent mauris eros, porttitor sed cursus ut, vulputate non purus. Aenean ut nibh quis odio laoreet malesuada volutpat eu elit. Suspendisse vulputate ipsum accumsan nibh ornare ullamcorper. Quisque vitae arcu urna.\par
+
+In et nunc finibus, sodales nibh vitae, vehicula odio. Donec arcu diam, eleifend sed mi ut, congue pellentesque tortor. Ut pretium finibus elit, efficitur elementum ligula euismod nec. In hac habitasse platea dictumst. Vivamus auctor rhoncus magna. Ut venenatis sapien non eros feugiat faucibus. Fusce vel risus eget ante tristique condimentum. Nulla imperdiet rhoncus urna sit amet consectetur.\par
+
+
+% table of contents with the import of the differents external chapters so its more readable the whole document.
+\tableofcontents
+% blank page code start
+\clearpage\pagestyle{empty}\mbox{}\clearpage
+% blank page code end
+\listoffigures
+% blank page code start
+\clearpage\pagestyle{empty}\mbox{}\clearpage
+% blank page code end
+\listoftables
+% blank page code start
+\clearpage\pagestyle{empty}\mbox{}\clearpage
+% blank page code end
+\chapter*{List of Contributions}
+\input{chapters/0_contributions}
+% blank page code start
+\clearpage\pagestyle{empty}\mbox{}\clearpage
+% blank page code end
+\chapter{Introduction, Motivations and Goals}
+\input{chapters/3_introduction}
+% blank page code start
+\clearpage\pagestyle{empty}\mbox{}\clearpage
+% blank page code end
+\chapter{State of the Art}
+\input{chapters/4_stateoftheart}
+\chapter{Methodology}
+\input{chapters/5_methodology}
+\chapter{Development of the Work}
+\input{chapters/6_development}
+\chapter{Evaluation of the Work}
+\input{chapters/7_evaluation}
+\chapter{Conclusion}
+\input{chapters/8_conclusion}
+% appendix declaration.
+\appendix
+\chapter{Appendix}
+\input{chapters/9_appendix}
+\printbibliography 
+
+\end{document}
